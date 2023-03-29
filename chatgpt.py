@@ -26,12 +26,12 @@ Rachit = Client(
     bot_token = BOT_TOKEN
 )
 START = f"""
-Hui! I am Shona 😘 An advanced Telegram ChatGPT Bot 
+Hui! I am Kannadiga 😘 An advanced Google Bot 
 
-⚡ Owner - @Hyper_x_Rachit
-⚡ Support - @Shona_Ai 
+⚡ Owner - @KannadigaXD
+⚡ Support - @kannadigaruXD
 
-U can Use me By Adding `Shona` Before Your Question.
+U can Use me By Adding `kannadiga` Before Your Question.
 """
 xa = bytearray.fromhex("68 74 74 70 73 3A 2F 2F 67 69 74 68 75 62 2E 63 6F 6D 2F 4E 6F 6F 62 2D 6D 75 6B 65 73 68 2F 43 68 61 74 67 70 74 2D 62 6F 74").decode()
 axx = bytearray.fromhex("49  54 7A 5F 4C 45 47 45 4E 44 5F 43 4F 44 45 52").decode()
@@ -59,7 +59,7 @@ MAIN = [
 ]
 X = [
     [
-        InlineKeyboardButton(text="sʜᴏɴᴀ sᴜᴘᴘᴏʀᴛ", url=f"t.me/Shona_AI")
+        InlineKeyboardButton(text="sʜᴏɴᴀ sᴜᴘᴘᴏʀᴛ", url=f"t.me/naankannadiga_bot")
     ],
 ]
 PNG_BTN = [
@@ -71,7 +71,7 @@ PNG_BTN = [
      ],
 ]
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('SOURCE', url=f"{SOURCE}")]])
-HELP_READ = "I can Clear Your Doubt, Your Questions, Your Homework Question 😂 Anything U want u can ask me just Type Shona before ur question ~ Example Type - `Shona Write a python code to calculate the given numbers.`"
+HELP_READ = "I can Clear Your Doubt, Your Questions, Your Homework Question 😂 Anything U want u can ask me just Type kannadiga before ur question ~ Example Type - `Kannadiga Write a python code to calculate the given numbers.`"
 HELP_BACK = [
     [
            InlineKeyboardButton(text="𝙱𝙰𝙲𝙺", callback_data="HELP_BACK"),
@@ -141,7 +141,7 @@ async def ping(client, message: Message):
 
 #  main   
 openai.api_key = OPENAI_KEY
-@Rachit.on_message(filters.command(["Shona","shona","@Shona_Ai"],  prefixes=["","+", ".", "/", "-", "?", "$","#","&"]))
+@Rachit.on_message(filters.command(["Kanadiga","kannadiga","@naankannadiga_bot"],  prefixes=["","+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(bot, message):
     
     try:
@@ -149,7 +149,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "Example:**\n\n`Shona Who is elon musk?`")
+            "Example:**\n\n`Lannadiga Who is Alexa?`")
         else:
 
             a = message.text.split(' ', 1)[1]
@@ -170,13 +170,13 @@ s = bytearray.fromhex("68 74 74 70 73 3A 2F 2F 67 69 74 68 75 62 2E 63 6F 6D 2F 
 u = bytearray.fromhex("49  54 7A 5F 4C 45 47 45 4E 44 5F 43 4F 44 45 52").decode()
 d= bytearray.fromhex("4D 52 5F 53 55 4B 4B 55 4E").decode()
 if SOURCE != s:
-    print("So sad, you have changed source, change it back to ` https://github.com/Hyper-x-Rachit/Chatgpt-bot `  else I won't work")
+    print("So sad, you have changed source, change it back to ` https://t.me/kannadigaruXD `  else I won't work")
     sys.exit(1)  
 if DEVELOPER!=u:
-    print("So sad, you have changed Updates, change it back to `Hyper_x_Rachit ` else I won't work")
+    print("So sad, you have changed Updates, change it back to `KannadigaXD ` else I won't work")
     sys.exit(1)
 if UPDATE_CHNL!=d:
-    print("So sad, you have change developer, change it back to `Shona_Ai ` else I won't work")
+    print("So sad, you have change developer, change it back to `kannadiga_xd ` else I won't work")
     sys.exit(1)
 
 
