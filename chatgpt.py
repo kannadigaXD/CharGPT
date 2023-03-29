@@ -59,7 +59,7 @@ MAIN = [
 ]
 X = [
     [
-        InlineKeyboardButton(text="sʜᴏɴᴀ sᴜᴘᴘᴏʀᴛ", url=f"t.me/naankannadiga_bot")
+        InlineKeyboardButton(text="ಕನ್ನಡಿಗರು", url=f"t.me/KANNADIGARUXD")
     ],
 ]
 PNG_BTN = [
