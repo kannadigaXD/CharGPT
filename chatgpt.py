@@ -59,7 +59,7 @@ MAIN = [
 ]
 X = [
     [
-        InlineKeyboardButton(text="🎀『 𝙁 𝘾 𝙍 ✘ 𝙏 𝘼 』🎀", url=f"t.me/DO_JISM_EK_JAAN_OP")
+        InlineKeyboardButton(text="🎀『 𝙾𝚆𝙽𝙴𝚁 』🎀", url=f"t.me/KANNADIGA_XD")
     ],
 ]
 PNG_BTN = [
@@ -125,7 +125,7 @@ async def source(bot, m):
 @Rachit.on_message(filters.command(["ping"], prefixes=["","+", "/", "-", "?", "$", "&","."]))
 async def ping(client, message: Message):
         start = datetime.now()
-        t = "**🔁|𝙱𝙰𝙱𝚄 𝙴𝙺 𝚂𝙴𝙲 𝚁𝚄𝙺𝙾 😘...**"
+        t = "**🔁|𝚠𝚊𝚒𝚝 𝚏𝚘𝚛 𝚊 𝚖𝚒𝚗𝚞𝚝𝚎 𝚏𝚛𝚒𝚎𝚗𝚍😘...**"
         txxt = await message.reply(t)
         await asyncio.sleep(0.25)
         await txxt.edit_text("**✅|ummmm😍**")
@@ -141,7 +141,7 @@ async def ping(client, message: Message):
 
 #  main   
 openai.api_key = OPENAI_KEY
-@Rachit.on_message(filters.command(["Kanadiga","kannadiga","@naankannadiga_bot"],  prefixes=["","+", ".", "/", "-", "?", "$","#","&"]))
+@Rachit.on_message(filters.command(["Kanadiga","hey kannadiga","@naankannadiga_bot"],  prefixes=["","+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(bot, message):
     
     try:
@@ -149,7 +149,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "Example:**\n\n`Lannadiga Who is Alexa?`")
+            "Example:**\n\n`Kannadiga Who is Alexa?`")
         else:
 
             a = message.text.split(' ', 1)[1]
