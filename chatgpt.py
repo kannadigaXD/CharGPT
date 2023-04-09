@@ -26,12 +26,12 @@ Rachit = Client(
     bot_token = BOT_TOKEN
 )
 START = f"""
-Hui! I am Kannadiga 😘 An advanced Google Bot 
+Hui! I am FCRXTA 💥 An advanced Google Bot 
 
-⚡ Owner - @KannadigaXD
-⚡ Support - @kannadigaruXD
+⚡ Owner - @DO_JISM_EK_JAAN_OP
+⚡ Support - @KANNADA_CHATBOX
 
-U can Use me By Adding `kannadiga` Before Your Question.
+U can Use me By Adding `FCRXTA` Before Your Question.
 """
 xa = bytearray.fromhex("68 74 74 70 73 3A 2F 2F 67 69 74 68 75 62 2E 63 6F 6D 2F 4E 6F 6F 62 2D 6D 75 6B 65 73 68 2F 43 68 61 74 67 70 74 2D 62 6F 74").decode()
 axx = bytearray.fromhex("49  54 7A 5F 4C 45 47 45 4E 44 5F 43 4F 44 45 52").decode()
@@ -59,7 +59,7 @@ MAIN = [
 ]
 X = [
     [
-        InlineKeyboardButton(text="🎀『 𝙾𝚆𝙽𝙴𝚁 』🎀", url=f"t.me/KANNADIGA_XD")
+        InlineKeyboardButton(text="🎀『 𝙾𝚆𝙽𝙴𝚁 』🎀", url=f"t.me/DO_JISM_EK_JAAN_OP")
     ],
 ]
 PNG_BTN = [
@@ -71,7 +71,7 @@ PNG_BTN = [
      ],
 ]
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('SOURCE', url=f"{SOURCE}")]])
-HELP_READ = "I can Clear Your Doubt, Your Questions, Your Homework Question 😂 Anything U want u can ask me just Type kannadiga before ur question ~ Example Type - `Kannadiga Write a python code to calculate the given numbers.`"
+HELP_READ = "I can Clear Your Doubt, Your Questions, Your Homework Question 😂 Anything U want u can ask me just Type fcrxta before ur question ~ Example Type - `fcrxta Write a python code to calculate the given numbers.`"
 HELP_BACK = [
     [
            InlineKeyboardButton(text="𝙱𝙰𝙲𝙺", callback_data="HELP_BACK"),
@@ -141,7 +141,7 @@ async def ping(client, message: Message):
 
 #  main   
 openai.api_key = OPENAI_KEY
-@Rachit.on_message(filters.command(["Kanadiga","hey kannadiga","@naankannadiga_bot"],  prefixes=["","+", ".", "/", "-", "?", "$","#","&"]))
+@Rachit.on_message(filters.command(["fcrxta","hey jaani","agora"],  prefixes=["","+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(bot, message):
     
     try:
@@ -149,7 +149,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "Example:**\n\n`Kannadiga Who is Alexa?`")
+            "Example:**\n\n`hey jaani Who is Alexa?`")
         else:
 
             a = message.text.split(' ', 1)[1]
