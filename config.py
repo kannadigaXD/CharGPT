@@ -11,6 +11,6 @@ START_IMG = os.environ.get("START_IMG","https://telegra.ph/file/8c78951f44aa0362
 STKR = os.environ.get("STKR","CAACAgEAAx0CdauxWQACAmtkHdVipVVexTejJ9fgUKf_WllxNgACKwMAAt_U8UTylneQIu4aSy8E")
 BANNED_USERS=os.environ.get("BANNED_USERS",None)
 UPDATE_CHNL = os.environ.get("UPDATE_CHNL",None)
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME","KANNADIGAXD")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME","kimjikoinsupport")
 SUDO=os.environ.get("SUDO",None)
 SUPPORT_GRP = os.environ.get("SUPPORT_GRP",None)
